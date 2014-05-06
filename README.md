@@ -14,11 +14,11 @@ Params can be a `block!` of values, but as a shortcut single values are treated 
 
 Some examples:
 
-;-- Get the clipboard, requires no parameters sl4a getClipboard none
+;-- Get the clipboard, requires no parameters: `sl4a getClipboard none`
 
-;-- Set the clipboard to the string "Rebol" sl4a setClipboard "Rebol"
+;-- Set the clipboard to the string "Rebol": `sl4a setClipboard "Rebol"`
 
-;-- Show a layout with a string, then dismiss it. sl4a fullShow [layout-string title] sl4a 'fullDismiss none
+;-- Show a layout (coded in xml-layout string!), then dismiss it: `sl4a fullShow [xml-layout title] sl4a 'fullDismiss none`
 
-;-- Use text-to-speech to say "The voice of Rebol" sl4a ttsSpeak "The voice of Rebol"
+;-- Use text-to-speech to say "The voice of Rebol": `sl4a ttsSpeak "The voice of Rebol"`
 
