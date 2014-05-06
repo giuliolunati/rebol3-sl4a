@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Rebol3Main!</string>
+    <string name="app_name">Rebol3 For SL4A</string>
+</resources>

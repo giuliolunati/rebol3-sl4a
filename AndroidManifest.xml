@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="github.giuliolunati.rebol3_sl4a"
+  android:versionCode="1"
+  android:versionName="1.0">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application
+    android:label="@string/app_name"
+    android:icon="@drawable/rebol">
+    <activity
+      android:name=".Rebol3Main"
+      android:label="@string/app_name"
+      android:configChanges="keyboardHidden|orientation">
+      <intent-filter>
+        <action
+          android:name="android.intent.action.MAIN" />
+        <category
+          android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action
+          android:name="com.googlecode.android_scripting.DISCOVER_INTERPRETERS" />
+        <category
+          android:name="android.intent.category.LAUNCHER" />
+        <data
+          android:mimeType="script/.reb" />
+      </intent-filter>
+    </activity>
+    <provider
+      android:authorities="github.giuliolunati.rebol3_sl4a.rebol3provider"
+      android:name=".Rebol3Provider" />
+  </application>
+  <uses-sdk
+    android:minSdkVersion="3" />
+</manifest>
