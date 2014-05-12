@@ -2,3 +2,5 @@ gen/
 bin/
 .history*txt
 *~
+*.sw?
+_*

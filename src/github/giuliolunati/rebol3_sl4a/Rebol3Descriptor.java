@@ -54,7 +54,7 @@ public class Rebol3Descriptor implements InterpreterDescriptor {
   /* Directories */
 
   private String getHome(Context context) {
-    File file = InterpreterUtils.getInterpreterRoot(context, getName());
+    File file = InterpreterUtils.getInterpreterRoot(context);
     return file.getAbsolutePath();
   }
 
@@ -103,7 +103,7 @@ public class Rebol3Descriptor implements InterpreterDescriptor {
 
   @Override
   public boolean hasInterpreterArchive() {
-    return true;
+    return false;
   }
 
   @Override
@@ -133,7 +133,7 @@ public class Rebol3Descriptor implements InterpreterDescriptor {
 
   @Override
   public boolean hasScriptsArchive() {
-    return true;
+    return false;
   }
 
   @Override
