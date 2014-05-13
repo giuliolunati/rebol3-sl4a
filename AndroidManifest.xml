@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="github.giuliolunati.rebol3_sl4a"
+  package="github.giuliolunati.rebol3sl4a"
   android:versionCode="1"
   android:versionName="1.0">
 	<uses-permission android:name="android.permission.INTERNET" />
@@ -30,7 +30,7 @@
       </intent-filter>
     </activity>
     <provider
-      android:authorities="github.giuliolunati.rebol3_sl4a.rebol3provider"
+      android:authorities="github.giuliolunati.rebol3sl4a.rebol3provider"
       android:name=".Rebol3Provider" />
   </application>
   <uses-sdk

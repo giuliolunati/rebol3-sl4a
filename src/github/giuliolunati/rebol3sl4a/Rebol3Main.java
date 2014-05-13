@@ -13,7 +13,7 @@
  * the License.
  */
 
-package github.giuliolunati.rebol3_sl4a;
+package github.giuliolunati.rebol3sl4a;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package github.giuliolunati.rebol3_sl4a;
+package github.giuliolunati.rebol3sl4a;
 
 import java.io.File;
 
