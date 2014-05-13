@@ -4,6 +4,28 @@ This is a Rebol3 interface to the [Scripting Layer for Android (SL4A)](http://en
 
 See the SL4A documentation for information on what it can do.
 
+# CONFIG
+
+**WARNING**: you *MUST* provide an android CLI `rebol3` executable; place it in `assets/bin/`. You can found prebuilt one at [rebolsource](http://rebolsource.net)
+
+Config file: `assets/bin/rebol.r`
+
+Modules: `assets/lib/`
+
+Scripts: `assets/scripts/`
+
+# BUILD
+
+Tested building with [AIDE](http://www.android-ide.com/).
+
+Anyone can test Eclipse?
+
+# INSTALL
+
+First run after app install: button "Install" place `rebol3` executable and `rebol.r` config file in `$HOME/bin`, modules in `$HOME/lib/`, scripts in `/sdcard/sl4a/scripts/` 
+
+`HOME` is `/data/data/github/giuliolunati/rebol3sl4a/files/`
+
 # SYNTAX
 
 All invocations are of the form `sl4a method params`.
