@@ -16,6 +16,8 @@ Scripts: `assets/scripts/`
 
 # BUILD
 
+[Prebuilt APK](http://giuliolunati.altervista.org/Rebol3/)
+
 Tested building with [AIDE](http://www.android-ide.com/).
 
 Anyone can test Eclipse?
